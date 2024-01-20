@@ -1,6 +1,6 @@
 # Free Ship Decorations - Lethal Company Mod
 
-Tiring of having to choose between flashlights and the pajamas suit? `Free Ship Decorations` lets you mod your `Lethal Company` game to buy ship decorations in the current rotation for free.
+Tired of having to choose between flashlights and the pajamas suit? `Free Ship Decorations` lets you mod your `Lethal Company` game to buy ship decorations in the current rotation for free.
 
 Thanks to this mod, Keep your money for what matters (keeping the company happy!).
 
