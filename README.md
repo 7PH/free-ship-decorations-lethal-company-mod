@@ -1,6 +1,6 @@
 # Free Ship Decorations - Lethal Company Mod
 
-Tired of having to choose between flashlights and the pajamas suit? `Free Ship Decorations` lets you mod your `Lethal Company` game to buy ship decorations in the current rotation for free.
+Tired of having to choose between flashlights and the pajamas suit? `Free Ship Decorations` lets you mod your `Lethal Company` game to buy a single ship decoration per rotation for free.
 
 Thanks to this mod, Keep your money for what matters (keeping the company happy!).
 
@@ -9,6 +9,7 @@ Thanks to this mod, Keep your money for what matters (keeping the company happy!
 - Ship decorations do not bring any benefit to the game and are too expensive (900$ for the pajama suit!?).
 - This mod does not affect the game difficulty.
 - It doesn't make sense to use hard earned money to buy ship decorations rather than gear for missions.
+- It limits the available ship decorations to 1 per rotation so you don't buy everything straight away
 
 ## Install
 

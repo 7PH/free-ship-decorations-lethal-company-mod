@@ -1,0 +1,9 @@
+{
+    "name": "Free_Ship_Decorations",
+    "version_number": "1.1.0",
+    "website_url": "https://github.com/7PH/free-ship-decorations-lethal-company-mod",
+    "description": "Free Ship Decorations lets you mod your Lethal Company game to buy ship decorations in the current rotation for free",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}
