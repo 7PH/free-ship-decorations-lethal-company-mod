@@ -7,18 +7,25 @@ namespace LCTutorialMod.Patches
     internal class TerminalPatch
     {
         /**
-         * Alter ship decorations to be free and limit the number of decorations to 1
+         * Make all ship decorations available and mark them free in the terminal listing
          */
         [HarmonyPatch("RotateShipDecorSelection")]
         [HarmonyPostfix]
         static void changeShownDecorationPrices(ref List<TerminalNode> ___ShipDecorSelection)
         {
-            // Remove all decorations but the first
-            if (___ShipDecorSelection.Count > 1)
+            // Empty the list
+            ___ShipDecorSelection.Clear();
+
+            // Re-add all unlockables that are ship decorations
+            for (int index = 0; index < StartOfRound.Instance.unlockablesList.unlockables.Count; ++index)
             {
-                ___ShipDecorSelection.RemoveRange(1, ___ShipDecorSelection.Count - 1);
+                UnlockableItem obj = StartOfRound.Instance.unlockablesList.unlockables[index];
+                if (obj.shopSelectionNode != null && !obj.alwaysInStock) {
+                    ___ShipDecorSelection.Add(obj.shopSelectionNode);
+                }
             }
-            // Alter price
+            
+            // Alter price to 0
             foreach (TerminalNode node in ___ShipDecorSelection)
             {
                 LCModFreeShipDecorations.ModeBase.Instance.mls.LogInfo("Overriding the price of ship decoration (" + node.ToString() + ")");
