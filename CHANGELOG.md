@@ -1,3 +1,7 @@
+# v1.2.1
+
+- Fix in-code BepInEx plugin version
+
 # v1.2.0
 
 - Make all ship decorations available for free.

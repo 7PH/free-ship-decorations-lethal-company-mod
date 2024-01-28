@@ -10,7 +10,7 @@ namespace LCModFreeShipDecorations
     {
         private const string modGUID = "7ph.dev.lcmodfreeshipdecorations";
         private const string modName = "LC Mod - Free Ship Decorations";
-        private const string modVersion = "1.0.0";
+        private const string modVersion = "1.2.1";
 
         private readonly Harmony harmony = new Harmony(modGUID);
 
